@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinebuffe 2.0</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/navbar.css">
+</head>
+
+<body>
+    
+    <nav
+        class="navbar  flex justify-between items-center bg-[#f9f9f9] shadow-lg shadow-[rgba(0, 0, 0, 0.25) 0px 14px 28px] ">
+        <div class="images md:w-48 mx-0 vm:mx-6 md:mx-10">
+            <img src="/navber-svg/Logo.PNG" alt="Logo" srcset="" class="  ">
+        </div>
+        <div class="list  items-center hidden  md:block static" id="navlist">
+            <ul class="items-center  flex  text-xl ">
+                <li><a href="#">Home</a></li>
+                <li><a href="./dishes.html">Dishes</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="homeicons px-0 md:px-2 block md:hidden">
+            <a href="./dishes.html">
+                <ion-icon name="fast-food"></ion-icon>
+            </a>
+            <a href="./Contact.html">
+                <ion-icon name="paper-plane" ></ion-icon>
+            </a>
+        </div>
+        <div class="icons flex md:px-2">
+            <a href="./account.html" class=" hover:bg-[#4ebab9] transition ease-in duration-300 rounded-lg">
+                <ion-icon name="person-sharp"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="cart" class="hover:bg-[#4ebab9]  transition ease-in duration-300 rounded-lg"></ion-icon>
+            </a>
+        </div>
+    </nav>
+    <!-- ====================================home section -sliders swiper js-->
+
+    <section class="home  mx-8 my-1  ">
+        <div class="swiper  homeslider">
+            <div class="swiper-wrapper wraper ">
+    
+                <div class="sliders1 swiper-slide flex   items-center  ">
+                    <div class="left">
+                        <p class="text-3xl text-[#337d7c] p-3 ">Special Dishes</p>
+                        <h2 class="text-4xl p-4">Chicken biryani</h2>
+                        <p class=" text-[#337d7c] p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde em
+                            aliquid, omnis Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <a href="#" class="bg-[#4ebab9] p-2 m-10 rounded-lg hover:bg-[#3e9a98]">order now</a>
+                    </div>
+                    <div class="right w-[820px]">
+                        <img src="/images/biryani1.jpg" alt="" class="rounded-[20px]  ">
+                    </div>
+                </div>
+                <div class="sliders2 swiper-slide flex   items-center  ">
+                    <div class="left">
+                        <p class="text-3xl text-[#337d7c] p-3 ">Special Dishes</p>
+                        <h2 class="text-4xl p-4">pizza</h2>
+                        <p class=" text-[#337d7c] p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde em
+                            aliquid, omnis Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <a href="#" class="bg-[#4ebab9] p-2 m-10 rounded-lg hover:bg-[#3e9a98]">order now</a>
+                    </div>
+                    <div class="right  ">
+                        <img src="/images/pizza.jpg" alt="" class="rounded-[20px] w-[820px] ">
+                    </div>
+                </div>
+                <div class="sliders3 swiper-slide flex   items-center  ">
+                    <div class="left">
+                        <p class="text-3xl text-[#337d7c] p-3 ">Special Dishes</p>
+                        <h2 class="text-4xl p-4">Korean FriedChicken</h2>
+                        <p class=" text-[#337d7c] p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde em
+                            aliquid, omnis Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <a href="#" class="bg-[#4ebab9] p-2 m-10 rounded-lg hover:bg-[#3e9a98]">order now</a>
+                    </div>
+                    <div class="right  ">
+                        <img src="/images/fried-chicken.jpg" alt="" class="rounded-[20px] w-[820px] ">
+                    </div>
+                </div>
+                <div class="sliders4 swiper-slide flex   items-center  ">
+                    <div class="left">
+                        <p class=" text-3xl text-[#337d7c] p-3 ">Special Dishes</p>
+                        <h2 class=" text-4xl p-4">ice creams</h2>
+                        <p class=" text-[#337d7c] p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde em
+                            aliquid, omnis Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <a href="#" class="bg-[#4ebab9] p-2 m-10 rounded-lg hover:bg-[#3e9a98]">order now</a>
+                    </div>
+                    <div class="right  ">
+                        <img src="/images/ice creams.jpg" alt="" class="rounded-[20px] w-[820px] ">
+                    </div>
+                </div>
+            </div>
+            <hr> 
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+<!-- ===================================================  tittle for cards --->
+<div class="subtitle text-center">
+    <h3 class="text-[#337a79]  text-xl ">POPULER DISHES </h3>
+</div>
+<!-- ======================================================cards section 1-->
+<section class="boxes my-0 mx-4  lg:mx-9 bg-[#96c7ff2d] ">
+    <div class="gridbox  justify-items-center gap-3">
+        <div class="card-shadow  ">
+            <div class="img">
+                <img src="/images/burger.jpg" alt="" class="images w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">chicken Burger</h5>
+                        <p class="price mx-2">$5</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span> 10% OFF </span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class=" rounded-md ">
+                </div>
+            </a>
+        </div>
+
+        <div class="card-shadow  ">
+            <div class="img ">
+                <img src="/images/ice creams.jpg" alt="" class="w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">Flavored icecream</h5>
+                        <p class="price mx-2">$3.5</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span>BUY 2 save $2</span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class="rounded-md">
+                </div>
+            </a>
+        </div>
+
+        <div class="card-shadow  ">
+            <div class="img ">
+                <img src="/images/fried-chicken.jpg" alt="" class="w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">Korean Fried Chicken</h5>
+                        <p class="price mx-2">$6</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span>BUY COMBO GET 15% OFF</span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class="rounded-md">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ==================================================== cards section 2 -->
+<section class="boxes  mx-4  lg:mx-9 bg-[#96c7ff2d]">
+    <div class="gridbox  justify-items-center gap-3">
+        <div class="card-shadow  ">
+            <div class="img ">
+                <img src="/images/faluda.jpg" alt="" class="w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">Berry faluda</h5>
+                        <p class="price mx-2">$2.5</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span>BUY 2 GET CASHBACK </span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class="rounded-md">
+                </div>
+            </a>
+        </div>
+
+        <div class="card-shadow  ">
+            <div class="img ">
+                <img src="/images/noodlies.jpg" alt="" class="w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">chicken noodles</h5>
+                        <p class="price mx-2">$3</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span> $1 OFF</span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class="rounded-md">
+                </div>
+            </a>
+        </div>
+
+        <div class="card-shadow  ">
+            <div class="img ">
+                <img src="/images/mikshakes.jpg" alt="" class="w-[320px] ">
+            </div>
+            <a href="##">
+                <div class="content">
+                    <div class="first flex justify-between">
+                        <h5 class="itemname text-lg">Flavored Milkshakes</h5>
+                        <p class="price mx-2">$2.5</p>
+                    </div>
+                    <div class="second flex justify-between">
+                        <p class="offer bg-red-400 px-3 rounded-r-3xl"><span>10% OFF</span></p>
+                        <div class="star-icons text-yellow-600 ">
+                            <ion-icon name="star" class=""></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                    </div>
+                    <input type="button" value="order now" class="rounded-md">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ================================================================agaya......... Star item  -->
+<div class="flex items-center justify-center my-2  bg-[#96c7ff2d] ">
+    <div class="flex flex-col md:flex-row w-[70%] items-center space-y-4 rounded-lg p-2 hover:shadow-2xl">
+        <div class="flex-col space-y-4 text-center md:w-1/2 w-[80%]">
+            <div class="text-[#398483] text-2xl font-medium">STAR ITEM</div>
+            <div class="text-3xl font-medium">Grilled chicken</div>
+            <div class="text-gray-500">5% Cashback on ABC bank cards </div>
+            <div class="flex items-center justify-center">
+                <div class="bg-[#48adab] px-4 py-1 text-white font-medium rounded-lg hover:scale-105 hover:bg-[#44a2a1] cursor-pointer">
+                    Order now
+                </div>
+            </div>
+        </div>
+        <div class=" bg-gray-200 rounded-xl overflow-hidden">
+            <img src="/menuimg/grilled chicken.jpg" alt="" class="" />
+        </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row w-[70%] items-center space-y-4 rounded-lg p-2 hover:shadow-2xl">
+        <div class=" space-y-4 text-center md:w-1/2 w-[80%]">
+            <div class="text-[#398483] text-2xl font-medium">STAR ITEM</div>
+            <div class="text-3xl font-medium">Chicken biryani</div>
+            <div class="text-gray-500">5% Cashback on ABC bank cards </div>
+            <div class="flex items-center justify-center">
+                <div class="bg-[#48adab] px-4 py-1 text-white font-medium rounded-lg hover:scale-105 hover:bg-[#44a2a1] cursor-pointer">
+                    Order now
+                </div>
+            </div>
+        </div>
+        <div class="   bg-gray-200 rounded-xl overflow-hidden ">
+            <img src="/menuimg/biryani3.jpg" alt="" class="" />
+        </div>
+    </div>
+</div>
+<!-- ================================= star item box-2 -->
+<div class="flex items-center justify-center my-2 bg-[#96c7ff2d] ">
+    <div class="flex flex-col md:flex-row w-[70%] items-center space-y-4 rounded-lg p-2 hover:shadow-2xl">
+        <div class="flex-col space-y-4 text-center md:w-1/2 w-[80%]">
+            <div class="text-[#398483] text-2xl font-medium">STAR ITEM</div>
+            <div class="text-3xl font-medium">Spicy pasta </div>
+            <div class="text-gray-500">BUY COMBO Get CASHBACK coupon up to 10%</div>
+            <div class="flex items-center justify-center">
+                <div class="bg-[#48adab] px-4 py-1 text-white font-medium rounded-lg hover:scale-105 hover:bg-[#44a2a1] cursor-pointer">
+                    Order now
+                </div>
+            </div>
+        </div>
+        <div class=" bg-gray-200 rounded-xl overflow-hidden">
+            <img src="/menuimg/pastha.jpg" alt="" class="" />
+        </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row w-[70%] items-center space-y-4 rounded-lg p-2 hover:shadow-2xl">
+        <div class="flex-col space-y-4 text-center md:w-1/2 w-[80%]">
+            <div class="text-[#398483] text-2xl font-medium">STAR ITEM</div>
+            <div class="text-3xl font-medium">King Burger</div>
+            <div class="text-gray-500">BUY COMBO Get CASHBACK coupon up to 10%</div>
+            <div class="flex items-center justify-center">
+                <div class="bg-[#48adab] px-4 py-1 text-white font-medium rounded-lg hover:scale-105 hover:bg-[#44a2a1] cursor-pointer">
+                    Order now
+                </div>
+            </div>
+        </div>
+        <div class=" bg-gray-200 rounded-xl overflow-hidden">
+            <img src="/menuimg/comboburger.jpg" alt="" class="" />
+        </div>
+    </div>
+</div>
+<!-- ====================================================feedback -->
+<div class="container bg-[#96c7ff2d] mx-auto hover:shadow-xl ">
+    <div class="w-[30%]   flex flex-col mx-auto py-8 ">
+        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+        <div class=" mb-3">
+          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+          <input type="text"  class="w-[32vw] bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class=" mb-3">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email"  class="w-[32vw] bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class=" mb-3">
+          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+          <textarea  class="w-[32vw] bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button class="text-white bg-[#2ab3b1]  py-2  hover:bg-[#189795] rounded text-lg">Button</button>
+      </div>
+    </div>
+</div>
+
+<!-- ============================================================================== footer  -->
+<div class="bg-[#96c7ff2d] pt-2 sm:pt-8 lg:pt-10">
+    <footer class="max-w-screen-2xl px-3 md:px-5 mx-auto">
+      <div class="flex flex-col items-center border-t pt-6">
+        <!-- nav - start -->
+        <nav class="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6 mb-4">
+          <a href="#" class="text-gray-500 hover:text-[#4ebab9]  transition duration-100">Login</a>
+          <a href="#" class="text-gray-500 hover:text-[#4ebab9]  transition duration-100">cart</a>
+          <a href="#" class="text-gray-500 hover:text-[#4ebab9]  transition duration-100">Menu</a>
+          <a href="#" class="text-gray-500 hover:text-[#4ebab9]  transition duration-100">Food Blog</a>
+          <a href="#" class="text-gray-500 hover:text-[#4ebab9]  transition duration-100">contact</a>
+        </nav>
+        <!-- nav - end -->
+  
+        <!-- social - start -->
+        <div class="flex gap-4">
+          <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+  
+          <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+  
+          <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+  
+          <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+        <!-- social - end -->
+      </div>
+  
+      <div class="text-gray-400 text-sm text-center py-8">© 2021 - Present Dinebuffe 2.0 . All rights reserved.</div>
+    </footer>
+  </div>
+
+
+
+    <script src="/js/swiperjs.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>                                    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

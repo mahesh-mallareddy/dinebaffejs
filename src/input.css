@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .gridbox{
+    @apply
+        grid sm:grid-cols-2 c-lg:grid-cols-3
+    }
+
+    .card-shadow{
+        @apply
+        p-2 rounded-lg my-2 hover:shadow-2xl
+    }
+
+    ion-icon {
+        @apply
+        shadow-sm
+    }
+
+    section .card-shadow img{
+        @apply
+        rounded-xl
+    }
+
+    section a .content input{
+        @apply
+
+        bg-[#4ebab9]
+        hover:bg-[#44a2a1]
+        hover:scale-105
+        cursor-pointer
+        py-1 px-28 m-3
+    }
+
+    nav .homeicons a ion-icon {
+        @apply hover:bg-[#4ebab9] transition ease-in duration-300 rounded-lg 
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinebuffe 2.0</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/dist/output.css">
+    <style>
+        .login {
+            visibility: hidden;
+        }
+
+        .changes {
+            visibility: visible;
+        }
+
+        .box1 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-[#80c4c25a]">
+    <nav
+        class="navbar flex justify-between items-center bg-[#fefefe] shadow-lg shadow-[rgba(0, 0, 0, 0.25) 0px 14px 28px] ">
+        <div class="images md:w-48 mx-0 vm:mx-6 md:mx-10">
+            <img src="/navber-svg/Logo.PNG" alt="Logo" srcset="">
+        </div>
+        <div class="list absolute top-[108px] left-0 right-0 w-[full] items-center  bg-[#fefefe] hidden lg:bg-inherit lg:block lg:static"
+            id="navlist">
+            <ul class="items-center flex-col flex lg:flex-row text-xl ">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dishes.html">Dishes</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="icons flex  md:px-2">
+            <img src="/navber-svg/menu.svg" alt="" class="w-10  cursor-pointer block lg:hidden " id="menubtn">
+            <a href="#" class=" hover:bg-[#4ebab9] transition ease-in duration-300 rounded-lg">
+                <ion-icon name="person-sharp"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="cart" class="hover:bg-[#4ebab9] transition ease-in duration-300 rounded-lg"></ion-icon>
+            </a>
+        </div>
+    </nav>
+    <!-- =============================== login Container -->
+
+    <div class="   flex justify-around  ">
+        <div class="loginbtn " id="clickbtn">
+            <button
+                class=" py-2 px-4 m-5 bg-blue-500 text-white font-semibold rounded-lg transition ease-in duration-200 hover:bg-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-400 focus:ring-opacity"
+                id="getlogin">
+                Log in
+            </button>
+            <button
+                class="py-2 px-4 m-5 bg-blue-500 text-white font-semibold rounded-lg transition ease-in duration-200 hover:bg-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-400 focus:ring-opacity"
+                id="getlogin1">
+                signup
+            </button>
+        </div>
+</div>
+<div class="flex justify-center   ">
+        <div class="login bg-white flex flex-col m-5 rounded-lg  " id="loginbox">
+            <img src="/navber-svg/close.svg" alt="closesvg" class="h-6 cursor-pointer self-end " id="closebtn">
+            <input class="px-2 m-3 border border-1 border-gray-200 rounded-lg outline-none" type="text"
+                placeholder="Username or E-mail">
+            <input class="px-2 m-3 border border-1 border-gray-200 rounded-lg outline-none" type="password"
+                placeholder="Password">
+            <button
+                class="bg-blue-600 text-white py-1 my-1 mx-3 rounded-md transition ease-in duration-200 hover:bg-blue-700 ">Login</button>
+            <p class="text-center m-2 text-blue-700 hover:underline">forgot password?</p>
+            <hr class="border-gray-400">
+            <button
+                class="bg-green-600 text-white py-1 my-3 mx-10 rounded-md transition ease-in duration-200 hover:bg-green-700 ">signup</button>
+        </div>
+    </div>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="/js/account.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

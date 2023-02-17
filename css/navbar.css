@@ -1,0 +1,47 @@
+.navbar .icons a ion-icon{
+    height: 28px;
+    width: 25px;
+    padding: 10px;
+}
+.navbar .homeicons a ion-icon {
+    height: 28px;
+    width: 25px;
+    padding: 10px;
+}
+.navbar .images img{
+    width: 160px;
+    height: 90px;
+}
+/* ======================================= */
+.hidden.active{
+    display: block;
+} 
+/* =====================================swiper js */
+.swiper-pagination-bullet-active {
+    background: #189795;
+}
+/* ============================================== boxes populer dishes */
+
+/* ======================== */
+@media (min-width: 900px) {
+    .navbar .list ul li a:hover{
+        background-color: #4ebab9;
+        transition: ease-in 300ms;
+    }
+    .navbar .list ul li a{
+        border-radius: 10px;
+        padding: 0.6rem 1.5rem;
+    }
+ }
+ @media (max-width: 899.9px){
+    .navbar .list ul li {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .navbar .list ul li:hover{
+        background-color: #4ebab9;
+        transition: ease-in 300ms;
+    
+    }
+ }
+ 
